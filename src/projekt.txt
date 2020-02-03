@@ -1,0 +1,44 @@
+Projekte
+    - Private
+      - CrowClothing
+      - The Venue
+      -
+    - Uni
+      - Bildeditor
+      - Jarvis
+      - PerformPlus
+    - Arbiet
+      - Nemo
+      - Online Shop
+      - Melsaro Shop
+      - Melsaro Editor
+      - Melsaro Schablonengenerator
+      - Zolleck
+      - WaWi
+
+Ui / Ux
+    - Xd
+    - Photoshop
+    - Illustrator
+    - Azure
+    -
+
+Frontend
+    - JavaScript
+    - PHP
+    - CSS, Scss, Sass, Less
+    - HTML
+    - React, React Native
+    - Symfony
+    - Bootstrap
+    - JQuery
+    - Material UI
+
+Weitere fertigkeiten
+    - Java
+    - C
+    - C++
+    - Magento
+    - Oxid
+    - WordPress
+    - Blender

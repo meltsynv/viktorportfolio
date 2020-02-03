@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
-}
+* {
+  margin: 0px;
+  padding: 0px; }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #f0f0f0; }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .nav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px; }
+  .App .nav span {
+    font-size: 20px;
+    font-family: 'Lobster', cursive; }
+  .App .nav .avatar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px; }
+.App .header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .App .header .vertical-line {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 3px;
+    height: 32vh;
+    background-color: #b26158;
+    margin: 0 auto; }
+  .App .header .horizontal-line {
+    position: absolute;
+    background-color: #b26158;
+    width: 26vw;
+    bottom: 32vh;
+    left: 50%;
+    transform: translate(-26vw, 0%);
+    height: 3px;
+    border-right: 2px solid #b26158; }
+  .App .header .intro-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 250px;
+    transform: translate(0%, -50%); }
+    .App .header .intro-wrapper h1, .App .header .intro-wrapper h2 {
+      color: #b26158;
+      text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); }
+    .App .header .intro-wrapper h1 {
+      font-size: 9rem;
+      line-height: 130px; }
+    .App .header .intro-wrapper h2 {
+      font-size: 4rem;
+      text-transform: uppercase; }
+    .App .header .intro-wrapper .social-links {
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      .App .header .intro-wrapper .social-links svg.svg-inline--fa.fa-instagram.fa-w-14,
+      .App .header .intro-wrapper .social-links svg.svg-inline--fa.fa-xing.fa-w-12 {
+        color: #b26158;
+        font-size: 22px;
+        margin-right: 10px; }
+.App .aboutme {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center; }
+  .App .aboutme .aboutme-header .vertical-line {
+    width: 3px;
+    height: 75px;
+    background-color: #b26158;
+    margin: 0 auto; }
+  .App .aboutme .aboutme-header .portfolio-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #b26158;
+    background-size: cover;
+    background-position: center; }
+  .App .aboutme .aboutme-body {
+    width: 75%;
+    border-top: 3px solid #b26158;
+    border-left: 3px solid #b26158;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    position: relative; }
+    .App .aboutme .aboutme-body .aboutme-section .top {
+      width: 220px;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #b26158;
+      color: #f0f0f0;
+      padding: 10px 20px; }
+      .App .aboutme .aboutme-body .aboutme-section .top svg {
+        font-size: 25px; }
+    .App .aboutme .aboutme-body .aboutme-section .bottom {
+      margin-top: 20px; }
+      .App .aboutme .aboutme-body .aboutme-section .bottom .list {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px; }
+        .App .aboutme .aboutme-body .aboutme-section .bottom .list .logos {
+          width: 25px;
+          height: 25px;
+          margin-right: 10px; }
+    .App .aboutme .aboutme-body .aboutme-bottom {
+      width: 50%;
+      height: 3px;
+      background-color: #b26158;
+      position: absolute;
+      bottom: 0px;
+      left: 0; }
+.App .work {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .App .work .work-header .vertical-line {
+    width: 3px;
+    height: 75px;
+    background-color: #b26158;
+    margin: 0 auto; }
+  .App .work .work-header .title {
+    padding: 10px 50px;
+    border: 3px solid #b26158;
+    text-transform: uppercase; }
+  .App .work .work-body {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .App .work .work-body .card {
+      width: 300px;
+      height: 300px;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      transition: all .35s;
+      cursor: pointer;
+      text-align: center;
+      overflow: hidden; }
+      .App .work .work-body .card a.card-link {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        color: #f0f0f0;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 300px;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        opacity: 0;
+        transition: all .35s; }
+      .App .work .work-body .card .dev {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        padding: 10px 0px;
+        background-color: #f0f0f0;
+        z-index: 1;
+        transition: all .35s;
+        opacity: 0; }
+      .App .work .work-body .card:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 300px;
+        height: 300px;
+        background-color: #b26158;
+        opacity: 0;
+        transition: all .35s; }
+      .App .work .work-body .card:hover {
+        box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2); }
+        .App .work .work-body .card:hover a.card-link {
+          opacity: 1; }
+        .App .work .work-body .card:hover .dev {
+          bottom: 0px;
+          opacity: 1; }
+        .App .work .work-body .card:hover:after {
+          opacity: 0.8;
+          transition: all .35s; }
+.App .artwork {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .App .artwork .artwork-header .vertical-line {
+    width: 3px;
+    height: 75px;
+    background-color: #b26158;
+    margin: 0 auto; }
+  .App .artwork .artwork-header .title {
+    padding: 10px 50px;
+    border: 3px solid #b26158;
+    text-transform: uppercase; }
+  .App .artwork .artwork-body {
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .App .artwork .artwork-body .art-card {
+      width: 175px;
+      height: 175px;
+      background-position: center;
+      background-size: cover; }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*# sourceMappingURL=App.css.map */

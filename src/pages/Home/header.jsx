@@ -11,8 +11,6 @@ import CallToActionBtn from "../../components/callToActionBtn/callToActionBtn";
 const Header = () => {
     return (
         <div className={"header"} style={{backgroundImage: `url(${HeaderBG}`}}>
-            <div className={"vertical-line"}/>
-            <div className={"horizontal-line"}/>
             <div className={"intro-wrapper"}>
                 <h1>UI UX</h1>
                 <h2>mit extras</h2>

@@ -237,5 +237,54 @@ body {
       height: 175px;
       background-position: center;
       background-size: cover; }
+.App .outro {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .App .outro .outro-header .vertical-line {
+    width: 3px;
+    height: 75px;
+    background-color: #b26158;
+    margin: 0 auto; }
+  .App .outro .outro-header .title {
+    padding: 10px 50px;
+    border: 3px solid #b26158;
+    text-transform: uppercase; }
+  .App .outro .outro-body {
+    width: 100%;
+    background-color: #b26158;
+    text-align: center; }
+    .App .outro .outro-body .outro-wrapper {
+      width: 75%;
+      height: auto;
+      margin: 0 auto;
+      color: #f0f0f0;
+      padding: 25px 0px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly; }
+      .App .outro .outro-body .outro-wrapper .outro-card {
+        height: auto; }
+        .App .outro .outro-body .outro-wrapper .outro-card h1 {
+          opacity: 0.8;
+          font-size: 24px;
+          letter-spacing: 5px; }
+        .App .outro .outro-body .outro-wrapper .outro-card span {
+          opacity: 0.8;
+          font-size: 3rem;
+          font-family: 'Lobster', cursive; }
+      .App .outro .outro-body .outro-wrapper svg {
+        font-size: 44px;
+        padding: 0 10px;
+        opacity: 0.8; }
+.App .footer {
+  width: 100%;
+  height: auto;
+  background-color: #bdbdbd;
+  text-align: center;
+  padding: 20px 0px; }
 
 /*# sourceMappingURL=App.css.map */

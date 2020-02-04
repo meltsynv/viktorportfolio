@@ -71,7 +71,7 @@ class Outro extends React.Component {
                     <div className={"outro-wrapper"}>
                         <div className={"social-links"}>
                             <a href={"https://www.instagram.com/viktor_meltsyn_design/"} target={"_blank"}><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href={"https://www.xing.com/profile/Viktor_Meltsyn/"} target={"_blank"}><FontAwesomeIcon icon={faXing}/></a>
+                            <a href={"https://www.xing.com/profile/Viktor_Meltsyn"} target={"_blank"}><FontAwesomeIcon icon={faXing}/></a>
                         </div>
                     </div>
                 </div>

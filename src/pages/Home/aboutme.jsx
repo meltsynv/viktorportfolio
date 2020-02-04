@@ -14,7 +14,7 @@ import {faBlenderPhone, faCode, faQuidditch} from "@fortawesome/free-solid-svg-i
 
 const Aboutme = () => {
     return (
-        <div className={"aboutme"}>
+        <div id={"aboutme"} className={"aboutme"}>
             <div className={"aboutme-header"}>
                 <div className={"vertical-line"}/>
                 <div className={"portfolio-img"} style={{backgroundImage: `url(${PortfolioImg})`}}/>

@@ -25,19 +25,19 @@ const Work = () => {
             </div>
             <div className={"work-body"}>
                 <div className={"card"} style={{backgroundImage: `url(${MelsaroShop})`}}>
-                    <a className={"card-link"} href={"#"}>shop besuchen <FontAwesomeIcon icon={faArrowRight}/></a>
+                    <a className={"card-link"} href={"http://melsaro.de"} target={"_blank"}>shop besuchen <FontAwesomeIcon icon={faArrowRight}/></a>
                     <div className={"dev"}>
                         <span>Oxid, HTML, Css</span>
                     </div>
                 </div>
                 <div className={"card"} style={{backgroundImage: `url(${MelsaroEditor})`}}>
-                    <a className={"card-link"} href={"#"}>editor probieren <FontAwesomeIcon icon={faArrowRight}/></a>
+                    <a className={"card-link"} href={"http://editor.melsaro.de"} target={"_blank"}>editor probieren <FontAwesomeIcon icon={faArrowRight}/></a>
                     <div className={"dev"}>
                         <span>WordPress, HTML, Css</span>
                     </div>
                 </div>
                 <div className={"card"} style={{backgroundImage: `url(${SchablonenEditor})`}}>
-                    <a className={"card-link"} href={"#"}>schablonen generator <FontAwesomeIcon icon={faArrowRight}/></a>
+                    <a className={"card-link"} href={"https://melsaro-manager-1-0.netlify.com"} target={"_blank"}>schablonen generator <FontAwesomeIcon icon={faArrowRight}/></a>
                     <div className={"dev"}>
                         <span>Material-Ui, JavaScript, React</span>
                     </div>
@@ -48,19 +48,19 @@ const Work = () => {
             </div>
             <div className={"work-body"}>
                 <div className={"card"} style={{backgroundImage: `url(${Festival})`}}>
-                    <a className={"card-link"} href={"#"}> festival <FontAwesomeIcon icon={faArrowRight}/></a>
+                    <a className={"card-link"} href={"https://music-festival.netlify.com"} target={"_blank"}> festival <FontAwesomeIcon icon={faArrowRight}/></a>
                     <div className={"dev"}>
                         <span>Scss, React, Bootstrap</span>
                     </div>
                 </div>
                 <div className={"card"} style={{backgroundImage: `url(${EldoradoStaekhaus})`}}>
-                    <a className={"card-link"} href={"#"}>steakhaus <FontAwesomeIcon icon={faArrowRight}/></a>
+                    <a className={"card-link"} href={"http://steakhaus-wattenscheid.de"} target={"_blank"}>steakhaus <FontAwesomeIcon icon={faArrowRight}/></a>
                     <div className={"dev"}>
                         <span>CSS, Scss, React</span>
                     </div>
                 </div>
                 <div className={"card"} style={{backgroundImage: `url(${CrwmClothingShop})`}}>
-                    <a className={"card-link"} href={"#"}>demo shop besuchen <FontAwesomeIcon icon={faArrowRight}/></a>
+                    <a className={"card-link"} href={"https://crwn-demo.netlify.com"} target={"_blank"}>demo shop besuchen <FontAwesomeIcon icon={faArrowRight}/></a>
                     <div className={"dev"}>
                         <span>Scss, React, NodeJs</span>
                     </div>

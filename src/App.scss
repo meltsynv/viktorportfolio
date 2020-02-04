@@ -1,17 +1,20 @@
 $primaryColor: #b26158;
 
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
 
-body{
+body {
   font-family: Roboto, sans-serif;
   background-color: #f0f0f0;
+  scroll-behavior: smooth;
 }
 
-.App{
-  .nav{
+.App {
+  scroll-behavior: smooth;
+
+  .nav {
     position: absolute;
     top: 0px;
     right: 0px;
@@ -21,12 +24,12 @@ body{
     align-items: center;
     padding: 20px;
 
-    span{
-     font-size: 20px;
+    span {
+      font-size: 20px;
       font-family: 'Lobster', cursive;
     }
 
-    .avatar-img{
+    .avatar-img {
       width: 30px;
       height: 30px;
       border-radius: 15px;
@@ -35,14 +38,15 @@ body{
       margin-left: 20px;
     }
   }
-  .header{
+
+  .header {
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
     position: relative;
 
-    .vertical-line{
+    .vertical-line {
       position: absolute;
       bottom: 0px;
       left: 50%;
@@ -53,7 +57,7 @@ body{
       margin: 0 auto;
     }
 
-    .horizontal-line{
+    .horizontal-line {
       position: absolute;
       background-color: $primaryColor;
       width: 26vw;
@@ -64,33 +68,33 @@ body{
       border-right: 2px solid $primaryColor;
     }
 
-    .intro-wrapper{
+    .intro-wrapper {
       position: absolute;
       top: 50%;
       left: 250px;
       transform: translate(-0%, -50%);
 
-      h1, h2{
+      h1, h2 {
         color: $primaryColor;
-        text-shadow: 0px 3px 5px rgba(0,0,0, 0.3);
+        text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
       }
 
-      h1{
+      h1 {
         font-size: 9rem;
         line-height: 130px;
       }
 
-      h2{
+      h2 {
         font-size: 4rem;
         text-transform: uppercase;
       }
 
-      .social-links{
+      .social-links {
         margin-top: 20px;
         margin-bottom: 20px;
 
         svg.svg-inline--fa.fa-instagram.fa-w-14,
-        svg.svg-inline--fa.fa-xing.fa-w-12{
+        svg.svg-inline--fa.fa-xing.fa-w-12 {
           color: $primaryColor;
           font-size: 22px;
           margin-right: 10px;
@@ -98,7 +102,8 @@ body{
       }
     }
   }
-  .aboutme{
+
+  .aboutme {
     width: 100%;
     height: auto;
     display: flex;
@@ -106,14 +111,15 @@ body{
     justify-content: center;
     align-items: center;
 
-    .aboutme-header{
-      .vertical-line{
+    .aboutme-header {
+      .vertical-line {
         width: 3px;
         height: 75px;
         background-color: $primaryColor;
         margin: 0 auto;
       }
-      .portfolio-img{
+
+      .portfolio-img {
         width: 100px;
         height: 100px;
         border-radius: 50px;
@@ -122,7 +128,8 @@ body{
         background-position: center;
       }
     }
-    .aboutme-body{
+
+    .aboutme-body {
       width: 75%;
       border-top: 3px solid $primaryColor;
       border-left: 3px solid $primaryColor;
@@ -133,8 +140,9 @@ body{
       padding-left: 10px;
       padding-bottom: 50px;
       position: relative;
+      flex-wrap: wrap;
 
-      .aboutme-section{
+      .aboutme-section {
         .top {
           width: 220px;
           height: auto;
@@ -146,18 +154,20 @@ body{
           color: #f0f0f0;
           padding: 10px 20px;
 
-          svg{
+          svg {
             font-size: 25px;
           }
         }
-        .bottom{
+
+        .bottom {
           margin-top: 20px;
-          .list{
+
+          .list {
             display: flex;
             align-items: center;
             margin-bottom: 10px;
 
-            .logos{
+            .logos {
               width: 25px;
               height: 25px;
               margin-right: 10px;
@@ -165,7 +175,8 @@ body{
           }
         }
       }
-      .aboutme-bottom{
+
+      .aboutme-bottom {
         width: 50%;
         height: 3px;
         background-color: $primaryColor;
@@ -175,7 +186,8 @@ body{
       }
     }
   }
-  .work{
+
+  .work {
     width: 100%;
     height: auto;
     display: flex;
@@ -183,29 +195,29 @@ body{
     justify-content: center;
     align-items: center;
 
-    .work-header{
-      .vertical-line{
+    .work-header {
+      .vertical-line {
         width: 3px;
         height: 75px;
         background-color: $primaryColor;
         margin: 0 auto;
       }
 
-      .title{
+      .title {
         padding: 10px 50px;
         border: 3px solid $primaryColor;
         text-transform: uppercase;
       }
     }
 
-    .work-body{
+    .work-body {
       width: 75%;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
 
-      .card{
+      .card {
         width: 300px;
         height: 300px;
         background-position: center;
@@ -216,7 +228,7 @@ body{
         text-align: center;
         overflow: hidden;
 
-        a.card-link{
+        a.card-link {
           width: 100%;
           height: 100%;
           position: absolute;
@@ -233,7 +245,7 @@ body{
           transition: all .35s;
         }
 
-        .dev{
+        .dev {
           width: 100%;
           height: auto;
           position: absolute;
@@ -247,7 +259,7 @@ body{
           opacity: 0;
         }
 
-        &:after{
+        &:after {
           position: absolute;
           top: 0;
           left: 0;
@@ -259,16 +271,19 @@ body{
           transition: all .35s;
         }
 
-        &:hover{
-          box-shadow: 0px 7px 10px rgba(0,0,0, 0.2);
-          a.card-link{
+        &:hover {
+          box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.2);
+
+          a.card-link {
             opacity: 1;
           }
-          .dev{
+
+          .dev {
             bottom: 0px;
             opacity: 1;
           }
-          &:after{
+
+          &:after {
             opacity: 0.8;
             transition: all .35s;
           }
@@ -276,7 +291,8 @@ body{
       }
     }
   }
-  .artwork{
+
+  .artwork {
     width: 100%;
     height: auto;
     display: flex;
@@ -284,21 +300,22 @@ body{
     justify-content: center;
     align-items: center;
 
-    .artwork-header{
-      .vertical-line{
+    .artwork-header {
+      .vertical-line {
         width: 3px;
         height: 75px;
         background-color: $primaryColor;
         margin: 0 auto;
       }
 
-      .title{
+      .title {
         padding: 10px 50px;
         border: 3px solid $primaryColor;
         text-transform: uppercase;
       }
     }
-    .artwork-body{
+
+    .artwork-body {
       width: 75%;
       height: auto;
       display: flex;
@@ -306,7 +323,7 @@ body{
       flex-wrap: wrap;
       justify-content: space-between;
 
-      .art-card{
+      .art-card {
         width: 175px;
         height: 175px;
         background-position: center;
@@ -314,70 +331,222 @@ body{
       }
     }
   }
-  .outro{
+
+  .outro {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .outro-header{
-      .vertical-line{
+
+    .outro-header {
+      .vertical-line {
         width: 3px;
         height: 75px;
         background-color: $primaryColor;
         margin: 0 auto;
       }
 
-      .title{
+      .title {
         padding: 10px 50px;
         border: 3px solid $primaryColor;
         text-transform: uppercase;
       }
     }
-    .outro-body{
+
+    .outro-body {
       width: 100%;
       background-color: $primaryColor;
       text-align: center;
 
-      .outro-wrapper{
+      .outro-wrapper {
         width: 75%;
         height: auto;
         margin: 0 auto;
         color: #f0f0f0;
         padding: 25px 0px;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
 
-        .outro-card{
+        .outro-card {
           height: auto;
 
-          h1{
+          h1 {
             opacity: 0.8;
             font-size: 24px;
             letter-spacing: 5px;
           }
-          span{
+
+          span {
             opacity: 0.8;
             font-size: 3rem;
             font-family: 'Lobster', cursive;
           }
         }
 
-        svg{
+        svg {
           font-size: 44px;
           padding: 0 10px;
           opacity: 0.8;
+          color: #f0f0f0;
         }
       }
     }
   }
-  .footer{
+
+  .footer {
     width: 100%;
     height: auto;
     background-color: #bdbdbd;
     text-align: center;
     padding: 20px 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    .work {
+      .work-body {
+        justify-content: center;
+        border: 3px solid $primaryColor;
+        padding: 10px;
+
+        .card {
+          margin: 0px 30px 30px 30px;
+
+          &:last-child {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+    .artwork{
+      .artwork-body{
+        border: 3px solid $primaryColor;
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1166px) {
+  .App {
+    .artwork {
+      .artwork-body {
+        justify-content: center;
+
+        .art-card {
+          margin: 0px 30px 30px 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App {
+    .header {
+      .intro-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 110px;
+        transform: translate(0%, -50%);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .App {
+    .outro {
+      .outro-body {
+        .outro-wrapper {
+          flex-direction: column;
+
+          .outro-card {
+            margin-bottom: 30px;
+
+            &:last-child {
+              margin-bottom: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 693px) {
+  .App {
+    .aboutme .aboutme-body {
+      border: 3px solid $primaryColor;
+      justify-content: center;
+      padding: 0px;
+
+      .aboutme-section {
+        margin-bottom: 30px;
+      }
+
+      .aboutme-bottom {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    .header {
+      .intro-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 60px;
+        transform: translate(0%, -50%);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    .aboutme .aboutme-body {
+      border: none;
+      border-bottom: 3px solid $primaryColor;
+      border-top: 3px solid $primaryColor;
+
+      .aboutme-section {
+        width: 100%;
+        margin-bottom: 30px;
+        .top{
+          justify-content: space-evenly;
+          width: 100%;
+          padding: 10px 0px;
+        }
+      }
+    }
+    .work .work-body {
+      border: none;
+      border-bottom: 3px solid $primaryColor;
+      border-top: 3px solid $primaryColor;
+      padding: 0;
+
+      .card{
+        margin: 0px 0px 10px 0px;
+        width: 100%;
+
+        &:after{
+          width: 100%;
+        }
+      }
+    }
+
+    .artwork .artwork-body {
+      border: none;
+      border-bottom: 3px solid $primaryColor;
+      border-top: 3px solid $primaryColor;
+    }
   }
 }

@@ -15,8 +15,8 @@ const Header = () => {
                 <h1>UI UX</h1>
                 <h2>mit extras</h2>
                 <div className={"social-links"}>
-                    <FontAwesomeIcon icon={faInstagram}/>
-                    <FontAwesomeIcon icon={faXing}/>
+                    <a href={"https://www.instagram.com/viktor_meltsyn_design/"} target={"_blank"}><FontAwesomeIcon icon={faInstagram}/></a>
+                    <a href={"https://www.xing.com/profile/Viktor_Meltsyn/"} target={"_blank"}><FontAwesomeIcon icon={faXing}/></a>
                 </div>
                 <CallToActionBtn/>
             </div>

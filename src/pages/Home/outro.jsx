@@ -6,7 +6,7 @@ import {faInstagram, faXing} from "@fortawesome/free-brands-svg-icons";
 class Outro extends React.Component {
     state = {
         experienceStart: 0,
-        experienceEnd: 3,
+        experienceEnd: 5,
         projectsStart: 0,
         projectsEnd: 15,
         clientsStart: 0,
@@ -51,7 +51,7 @@ class Outro extends React.Component {
                     <div className={"outro-wrapper"}>
                         <Fade onReveal={() => this.porcentage()}>
                             <div className='outro-card'>
-                                <span> {this.state.experienceStart} Jahre</span>
+                                <span> {this.state.experienceStart} </span>
                                 <h1>Jahre Erfahrung</h1>
                             </div>
                         </Fade>

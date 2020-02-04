@@ -339,6 +339,12 @@ body {
     left: 60px;
     transform: translate(0%, -50%); } }
 @media screen and (max-width: 500px) {
+  .App .header .intro-wrapper {
+    top: 44%;
+    left: 40px;
+    transform: translate(0%, -50%); }
+    .App .header .intro-wrapper .call-to-action-btn {
+      margin-top: 5px; }
   .App .aboutme .aboutme-body {
     border: none;
     border-bottom: 3px solid #b26158;

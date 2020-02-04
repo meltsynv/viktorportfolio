@@ -512,6 +512,16 @@ body {
 
 @media screen and (max-width: 500px) {
   .App {
+    .header .intro-wrapper {
+      top: 44%;
+      left: 40px;
+      transform: translate(0%, -50%);
+
+      .call-to-action-btn {
+        margin-top: 5px;
+      }
+    }
+
     .aboutme .aboutme-body {
       border: none;
       border-bottom: 3px solid $primaryColor;

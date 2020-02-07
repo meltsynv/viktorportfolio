@@ -22,3 +22,9 @@ I
 src/pages/Home/header.jsx,1\9\19d72a0ed37a1b6593895b65913e487d6a4fbe84
 h
 8src/components/callToActionBtn/callToActionBtn.style.css,5\4\5468e26e8e7edf9a97c31248c0c078011887bdfb
+J
+src/pages/Home/artwork.jsx,a\c\acf5be5e5b1af9a300090fb9c9a7421f55a40fdb
+P
+ src/components/footer/footer.jsx,e\b\eba9e9434e34186a4360a25cee3960eda5c9c2f2
+H
+src/pages/Home/outro.jsx,d\e\de5157b91aac974293ea23b9cc3fe2d23afeba58

@@ -397,6 +397,132 @@ body {
     }
   }
 
+  .contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .contact-header {
+      .vertical-line {
+        width: 3px;
+        height: 75px;
+        background-color: $primaryColor;
+        margin: 0 auto;
+      }
+
+      .title {
+        padding: 10px 50px;
+        border: 3px solid $primaryColor;
+        text-transform: uppercase;
+      }
+    }
+    .contact-body{
+      width: 75%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+
+     form{
+       width: 45%;
+       height: auto;
+       margin: 20px 0px;
+       .form-group{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         width: 100%;
+         .custom-form-label{
+           width: 48%;
+           height: auto;
+           .MuiFormLabel-root.Mui-focused{
+             color: $primaryColor !important;
+           }
+           .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+             border-color: $primaryColor !important;
+           }
+         }
+       }
+       textarea{
+         background-color: transparent;
+         padding: 10px;
+         width: 100%;
+         min-height: 150px;
+         margin-top: 10px;
+         border-radius: 5px;
+         border: 1px solid rgba(0, 0, 0, 0.3);
+         font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+         font-size: 1rem;
+
+         &::placeholder{
+           color: rgba(0,0,0, 0.3);
+         }
+
+         &:hover{
+           border: 1px solid rgba(0, 0, 0, 0.87);
+         }
+         &:focus{
+           border-color: $primaryColor !important;
+         }
+       }
+       .send-btn{
+         display: block;
+         width: 200px;
+         height: 40px;
+         line-height: 40px;
+         font-size: 18px;
+         font-family: sans-serif;
+         text-decoration: none;
+         color: #333;
+         border: 1px solid #b26158;
+         letter-spacing: 2px;
+         text-align: center;
+         position: relative;
+         transition: all .35s;
+         cursor: pointer;
+         margin-top: 10px;
+         background-color: transparent;
+
+         span{
+           position: relative;
+           z-index: 2;
+         }
+
+         svg{
+           margin-left: 10px;
+         }
+
+         &:after{
+           position: absolute;
+           content: "";
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 0;
+           background: $primaryColor;
+           transition: all .35s;
+         }
+
+         &:hover{
+           color: #ffffff;
+           box-shadow: 0px 7px 10px rgba(0,0,0, 0.2);
+           svg{
+             color: #f0f0f0;
+           }
+           &:after{
+             height: 100%;
+           }
+         }
+       }
+     }
+    }
+  }
+
   .footer {
     width: 100%;
     height: auto;
@@ -427,6 +553,15 @@ body {
       .artwork-body{
         border: 3px solid $primaryColor;
         padding: 10px;
+      }
+    }
+    .contact{
+      .contact-body{
+        width: 100%;
+
+        form{
+          width: 80%;
+        }
       }
     }
   }
@@ -476,6 +611,13 @@ body {
         }
       }
     }
+    .contact{
+      .contact-body{
+        form{
+          width: 90%;
+        }
+      }
+    }
   }
 }
 
@@ -521,7 +663,6 @@ body {
         margin-top: 5px;
       }
     }
-
     .aboutme .aboutme-body {
       border: none;
       border-bottom: 3px solid $primaryColor;
@@ -552,11 +693,33 @@ body {
         }
       }
     }
-
     .artwork .artwork-body {
       border: none;
       border-bottom: 3px solid $primaryColor;
       border-top: 3px solid $primaryColor;
+    }
+    .contact{
+      .contact-body{
+        form{
+          width: 90%;
+          .form-group {
+            flex-direction: column;
+            .custom-form-label {
+              width: 100%;
+              &:first-child{
+                margin-bottom: 10px;
+              }
+            }
+            textarea {
+              padding: 0px;
+              &::placeholder{
+                padding-left: 10px;
+                padding-top: 10px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

@@ -16,15 +16,15 @@ const Contact = () => {
                 <div className={"vertical-line"}/>
             </div>
             <div className={"contact-body"}>
-                <form name="contact" method="POST" action={"POST"} data-netlify="true">
+                <form name="contact" action={"POST"} data-netlify="true">
                     <div className={"form-group"}>
                         <TextField className={"custom-form-label"} id="outlined-basic" label="Name" type="text"
                                    variant="outlined"
-                                   placeholder={"Max Mustermann"}/>
+                                   placeholder={"Max Mustermann"} name={"name"}/>
                         <TextField className={"custom-form-label"} id="outlined-basic" label="E-mail" type="email"
                                    variant="outlined"
-                                   placeholder={"max@mustermann.de"}/>
-                        <textarea type={"text"} placeholder={"Deine Nachricht an mich.."}/>
+                                   placeholder={"max@mustermann.de"} name={"email"}/>
+                        <textarea type={"text"} placeholder={"Deine Nachricht an mich.."} name={"message"}/>
                     </div>
                     <button type={"submit"} className={"send-btn"}><span>Senden <FontAwesomeIcon icon={faPaperPlane}/></span>
                     </button>

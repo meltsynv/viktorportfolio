@@ -16,7 +16,7 @@ const Contact = () => {
                 <div className={"vertical-line"}/>
             </div>
             <div className={"contact-body"}>
-                <form name="contact" action={"POST"} data-netlify="true">
+                <form action={"POST"} data-netlify="true">
                     <div className={"form-group"}>
                         <TextField className={"custom-form-label"} id="outlined-basic" label="Name" type="text"
                                    variant="outlined"

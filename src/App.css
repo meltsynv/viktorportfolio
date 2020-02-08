@@ -76,8 +76,7 @@ body {
       .App .header .intro-wrapper .social-links {
         margin-top: 20px;
         margin-bottom: 20px; }
-        .App .header .intro-wrapper .social-links svg.svg-inline--fa.fa-instagram.fa-w-14,
-        .App .header .intro-wrapper .social-links svg.svg-inline--fa.fa-xing.fa-w-12 {
+        .App .header .intro-wrapper .social-links svg {
           color: #b26158;
           font-size: 22px;
           margin-right: 10px; }

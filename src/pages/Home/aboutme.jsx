@@ -43,7 +43,6 @@ const Aboutme = () => {
                         <div className={"list"}><span>HTML</span></div>
                         <div className={"list"}><span>CSS, Sass, Scss, Less</span></div>
                         <div className={"list"}><span>JavaScript, ES6, jQuery</span></div>
-                        <div className={"list"}><span>PHP</span></div>
                         <div className={"list"}><span>Bootstrap, Material-Ui</span></div>
                         <div className={"list"}><span>React, Symfony</span></div>
                     </div>
@@ -53,7 +52,7 @@ const Aboutme = () => {
                         <h1>SONSTIGES</h1>
                     </div>
                     <div className={"bottom"}>
-                        <div className={"list"}><span>Java, C, C++</span></div>
+                        <div className={"list"}><span>PHP, Java, C, C++</span></div>
                         <div className={"list"}><span>MySql, MongoDB</span></div>
                         <div className={"list"}><span>Git, Yarn, GitHub</span></div>
                     </div>

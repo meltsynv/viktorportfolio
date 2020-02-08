@@ -4,9 +4,9 @@ import Header from "./header";
 import Aboutme from "./aboutme";
 import Work from "./work";
 import ArtWork from "./artwork";
-import Contact from "./contact";
 import Outro from "./outro";
 import Footer from "../../components/footer/footer";
+import ScrollToTopBtn from "../../components/ScrollToTopBtn/ScrollToTopBtn";
 
 const Home = () => {
     return (
@@ -15,8 +15,8 @@ const Home = () => {
             <Aboutme/>
             <Work/>
             <ArtWork/>
-
             <Outro/>
+            <ScrollToTopBtn/>
             <Footer/>
         </>
     );

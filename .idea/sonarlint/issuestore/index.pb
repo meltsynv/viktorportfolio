@@ -28,3 +28,5 @@ P
  src/components/footer/footer.jsx,e\b\eba9e9434e34186a4360a25cee3960eda5c9c2f2
 H
 src/pages/Home/outro.jsx,d\e\de5157b91aac974293ea23b9cc3fe2d23afeba58
+J
+src/pages/Home/contact.jsx,8\6\86262ca8a5e30a0804396fd7af8390b75c9600d0

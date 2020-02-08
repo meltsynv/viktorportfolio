@@ -43,7 +43,7 @@ class Outro extends React.Component {
                 <div className={"outro-header"}>
                     <div className={"vertical-line"}/>
                     <div className={"title"}>
-                        <h1>Danke für dein besuch</h1>
+                        <h1>Danke für deinen besuch</h1>
                     </div>
                     <div className={"vertical-line"}/>
                 </div>

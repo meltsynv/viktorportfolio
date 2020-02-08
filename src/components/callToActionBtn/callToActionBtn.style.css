@@ -1,6 +1,7 @@
 .call-to-action-btn{
     display: inline-block;
     margin-top: 50px;
+    scroll-behavior: smooth;
 }
 
 a.custom-link{
@@ -17,11 +18,13 @@ a.custom-link{
     text-align: center;
     position: relative;
     transition: all .35s;
+    scroll-behavior: smooth;
 }
 
 a.custom-link span{
     position: relative;
     z-index: 2;
+    scroll-behavior: smooth;
 }
 
 a.custom-link:after{
@@ -33,13 +36,16 @@ a.custom-link:after{
     height: 0;
     background: #b26158;
     transition: all .35s;
+    scroll-behavior: smooth;
 }
 
 a.custom-link:hover{
     color: #ffffff;
     box-shadow: 0px 7px 10px rgba(0,0,0, 0.2);
+    scroll-behavior: smooth;
 }
 
 a.custom-link:hover:after{
     height: 100%;
+    scroll-behavior: smooth;
 }

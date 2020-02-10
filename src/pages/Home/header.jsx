@@ -3,7 +3,7 @@ import HeaderBG from "../../assets/images/header-bg.jpg";
 
 //Fontawesome-icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGit, faGithub, faInstagram, faXing} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faXing} from "@fortawesome/free-brands-svg-icons";
 
 //Components
 import CallToActionBtn from "../../components/callToActionBtn/callToActionBtn";

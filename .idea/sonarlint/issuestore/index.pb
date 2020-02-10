@@ -30,3 +30,9 @@ H
 src/pages/Home/outro.jsx,d\e\de5157b91aac974293ea23b9cc3fe2d23afeba58
 J
 src/pages/Home/contact.jsx,8\6\86262ca8a5e30a0804396fd7af8390b75c9600d0
+D
+public/manifest.json,4\2\42e89cd2213b9d5dfae4f63522702c623170d792
+f
+6src/components/ScrollToTopBtn/ScrollToTopBtn.style.css,4\e\4e09e9c84832256a12665a36f995e440b50deccb
+`
+0src/components/ScrollToTopBtn/ScrollToTopBtn.jsx,0\8\087569ea9b4abdb21d11355a1b7f071b9186201f

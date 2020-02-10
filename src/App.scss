@@ -41,11 +41,99 @@ body {
     .avatar-img {
       width: 30px;
       height: 30px;
-      border-radius: 15px;
+      border-radius: 50%;
+      border: 2px solid #f0f0f0;
       background-size: cover;
       background-position: center;
       margin-left: 20px;
+      cursor: pointer;
+      transition: all .35s;
+
+      &:hover{
+        border-color: $primaryColor;
+      }
     }
+
+    .nav-menu{
+      width: auto;
+      height: auto;
+      padding: 10px 0px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      position: absolute;
+      box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+      top: 30px;
+      right: 22px;
+      opacity: 0;
+      transition: all .35s;
+      z-index: -1;
+
+      svg.arrow-up{
+        position: absolute;
+        top: -10px;
+        right: 6px;
+        font-size: 30px;
+        color: #f0f0f0;
+      }
+
+      .nav-list{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        svg{
+          margin-left: 10px;
+          font-size: 16px;
+          transition: all .35s;
+        }
+        &:hover{
+          color: #b26158;
+        }
+        &:last-child{
+          margin-bottom: 0px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .active{
+      opacity: 1;
+      top: 64px;
+      transition: all .35s;
+    }
+  }
+
+  .imp-modal{
+    width: auto;
+    height: 100vh;
+    background-color: #333333;
+    position: absolute;
+    top: 0px;
+    left: -250px;
+    opacity: 0;
+    z-index: 10;
+    color: #f0f0f0;
+    transition: all .35s;
+
+    svg{
+      position: absolute;
+      font-size: 20px;
+      top: 10px;
+      right: 20px;
+      cursor: pointer;
+      transition: all .35s;
+    }
+
+    .imp-list{
+      margin-top: 30px;
+      p{
+        margin: 10px;
+      }
+    }
+  }
+
+  .active-imp{
+    left: 0;
+    opacity: 1;
   }
 
   .header {

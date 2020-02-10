@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.scss';
-import PortfolioImg from './assets/images/01.jpg';
+
+//components
+import Nav from './components/nav/nav';
 
 //Pages
 import Home from './pages/Home';
@@ -8,12 +10,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-        <div className={"nav"}>
-            <div className={""}>
-                <span>viktor meltsyn</span>
-            </div>
-            <div className={"avatar-img"} style={{backgroundImage: `url(${PortfolioImg})`}}/>
-        </div>
+        <Nav/>
         <Home/>
     </div>
   );

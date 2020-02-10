@@ -7,7 +7,7 @@ import {faArrowLeft, faSortUp, faTimes} from "@fortawesome/free-solid-svg-icons"
 
 class Nav extends React.Component {
     state = {
-        navActive: 'active',
+        navActive: '',
         impActive: '',
     }
 

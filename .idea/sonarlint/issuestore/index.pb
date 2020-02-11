@@ -36,3 +36,5 @@ f
 6src/components/ScrollToTopBtn/ScrollToTopBtn.style.css,4\e\4e09e9c84832256a12665a36f995e440b50deccb
 `
 0src/components/ScrollToTopBtn/ScrollToTopBtn.jsx,0\8\087569ea9b4abdb21d11355a1b7f071b9186201f
+J
+src/components/nav/nav.jsx,8\7\872a6ee3ab66a9b25fb27698194ec9cbaace19cc

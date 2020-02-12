@@ -10,7 +10,7 @@ import SoftwareErgoLogo from  '../../assets/svg/softwareergo.svg';
 
 //Fontawesome-icons
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faBlenderPhone, faCode, faQuidditch} from "@fortawesome/free-solid-svg-icons";
+import {faCode, faQuidditch} from "@fortawesome/free-solid-svg-icons";
 
 const Aboutme = () => {
     return (

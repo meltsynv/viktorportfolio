@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "./header";
 import Aboutme from "./aboutme";
-import Work from "./work";
+import Work from "./work1";
 import ArtWork from "./artwork";
 import Outro from "./outro";
 import Footer from "../../components/footer/footer";

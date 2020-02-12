@@ -15,9 +15,9 @@ const Header = () => {
                 <h1>UI UX</h1>
                 <h2>mit extras</h2>
                 <div className={"social-links"}>
-                    <a href={"https://www.instagram.com/viktor_meltsyn_design/"} target={"blank"}><FontAwesomeIcon icon={faInstagram}/></a>
-                    <a href={"https://www.xing.com/profile/Viktor_Meltsyn"} target={"blank"}><FontAwesomeIcon icon={faXing}/></a>
-                    <a href={"https://github.com/meltsynv"} target={"blank"}><FontAwesomeIcon icon={faGithub}/></a>
+                    <a rel="noopener noreferrer" href={"https://www.instagram.com/viktor_meltsyn_design/"} target={"_blank"}><FontAwesomeIcon icon={faInstagram}/></a>
+                    <a rel="noopener noreferrer" href={"https://www.xing.com/profile/Viktor_Meltsyn"} target={"_blank"}><FontAwesomeIcon icon={faXing}/></a>
+                    <a rel="noopener noreferrer" href={"https://github.com/meltsynv"} target={"_blank"}><FontAwesomeIcon icon={faGithub}/></a>
                 </div>
                 <CallToActionBtn/>
             </div>

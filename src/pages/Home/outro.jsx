@@ -70,9 +70,9 @@ class Outro extends React.Component {
                     </div>
                     <div className={"outro-wrapper"}>
                         <div className={"social-links"}>
-                            <a href={"https://www.instagram.com/viktor_meltsyn_design/"} target={"_blank"}><FontAwesomeIcon icon={faInstagram}/></a>
-                            <a href={"https://www.xing.com/profile/Viktor_Meltsyn"} target={"_blank"}><FontAwesomeIcon icon={faXing}/></a>
-                            <a href={"https://github.com/meltsynv"} target={"_blank"}><FontAwesomeIcon icon={faGithub}/></a>
+                            <a rel="noopener noreferrer" href={"https://www.instagram.com/viktor_meltsyn_design/"} target={"_blank"}><FontAwesomeIcon icon={faInstagram}/></a>
+                            <a rel="noopener noreferrer" href={"https://www.xing.com/profile/Viktor_Meltsyn"} target={"_blank"}><FontAwesomeIcon icon={faXing}/></a>
+                            <a rel="noopener noreferrer" href={"https://github.com/meltsynv"} target={"_blank"}><FontAwesomeIcon icon={faGithub}/></a>
                         </div>
                     </div>
                 </div>

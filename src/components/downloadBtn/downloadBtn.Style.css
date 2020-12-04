@@ -2,7 +2,6 @@
     display: inline-block;
     margin-top: 50px;
     scroll-behavior: smooth;
-    margin-right: 10px;
 }
 
 a.custom-link{
@@ -22,10 +21,15 @@ a.custom-link{
     scroll-behavior: smooth;
 }
 
-a.custom-link span{
+a.custom-link span.downloadbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
     position: relative;
     z-index: 2;
     scroll-behavior: smooth;
+    margin-right: 10px;
 }
 
 a.custom-link:after{

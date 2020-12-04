@@ -1,10 +1,10 @@
 import React from "react";
 import './callToActionBtn.style.css'
 
-const CallToActionBtn = () => {
+const CallToActionBtn = ({title, link, cssName}) => {
     return (
         <div className="call-to-action-btn">
-            <a className={"custom-link"} href="#aboutme"><span>erfahre mehr</span></a>
+            <a className={cssName} href={link}><span>{title}</span></a>
         </div>
     );
 }

@@ -7,6 +7,7 @@ import { faGithub, faInstagram, faXing} from "@fortawesome/free-brands-svg-icons
 
 //Components
 import CallToActionBtn from "../../components/callToActionBtn/callToActionBtn";
+import DownloadBtn from "../../components/downloadBtn/downloadBtn";
 
 const Header = () => {
     return (
@@ -19,7 +20,15 @@ const Header = () => {
                     <a rel="noopener noreferrer" href={"https://www.xing.com/profile/Viktor_Meltsyn"} target={"_blank"}><FontAwesomeIcon icon={faXing}/></a>
                     <a rel="noopener noreferrer" href={"https://github.com/meltsynv"} target={"_blank"}><FontAwesomeIcon icon={faGithub}/></a>
                 </div>
-                <CallToActionBtn/>
+                <CallToActionBtn
+                    title = "erfahre mehr"
+                    cssName = "custom-link"
+                    link = "#aboutme"
+                />
+                <DownloadBtn
+                    title = "Lebenslauf"
+                    cssName= "custom-link"
+                />
             </div>
         </div>
     );

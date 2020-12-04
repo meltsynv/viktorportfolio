@@ -28,7 +28,7 @@ class Work extends React.Component {
         link: "http://melsaro.de",
         linkDescribtion: "shop besuchen",
         cardIcon: faShoppingCart,
-        devDescribtion: "Oxid, HTML, Css"
+        devDescribtion: "Wordpress, WooCommerce, Java, JQuery"
       },
       {
         id: 2,

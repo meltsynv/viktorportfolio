@@ -9,9 +9,8 @@ import PortfolioImg from "../../assets/images/01.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowLeft,
-  faSortUp,
   faTimes,
-  faHamburger,
+  faDownload,
   faBars
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -80,6 +79,11 @@ class Nav extends React.Component {
             <p onClick={() => this.showImp()} className={"nav-list"}>
               Impressum
               <FontAwesomeIcon id={"imp-arrow"} icon={faArrowLeft} />
+            </p>
+            <p className={"nav-list"}>
+              <a href={require("../../assets/Lebenslauf_viktor_meltsyn.pdf")} download="Lebenslauf Viktor Meltsyn">
+                Lebenslauf <FontAwesomeIcon icon={faDownload} />
+              </a>
             </p>
           </div>
         </div>

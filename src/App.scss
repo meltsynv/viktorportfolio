@@ -82,6 +82,9 @@ body {
           margin-top: 25px;
         }
         a{
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
           text-decoration: none;
           color: #000000;
           &:hover{
